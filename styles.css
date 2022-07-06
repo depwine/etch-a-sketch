@@ -28,6 +28,7 @@
     background-color: blue;
     transition: 10s;
 }
+
 .grid.permahover{
     display: block;
 }
