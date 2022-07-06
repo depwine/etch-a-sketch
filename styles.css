@@ -4,9 +4,12 @@
 }
 
 #container{
+    border: solid black 1px;
     display: grid;
     grid-template-columns: repeat(var(--container-grid-template-columns)
         , 1fr);
+    height: 700px;
+    width: 700px;
     /*
     grid-gap: 1px;
     */
@@ -16,9 +19,12 @@
 .grid{
     display:flex;
 
+    /*    
     border: 0.000001px;
+    
     border: solid;
     border-color: black;
+    */
     width: 100%;
 
 }
