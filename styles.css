@@ -1,0 +1,40 @@
+:root{
+    --container-grid-template-columns: 16;
+
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(var(--container-grid-template-columns)
+        , 1fr);
+    /*
+    grid-gap: 1px;
+    */
+}
+
+
+.grid{
+    display:flex;
+
+    border: 0.000001px;
+    border: solid;
+    border-color: black;
+    width: 100%;
+
+}
+
+/*
+.grid:hover{
+    background-color: blue;
+    transition: 10s;
+}
+.grid.permahover{
+    display: block;
+}
+*/
+
+.grid:after{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
